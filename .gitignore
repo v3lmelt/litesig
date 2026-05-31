@@ -1,0 +1,41 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+*.secret
+
+# Training data, weights, and generated outputs
+dataset/
+data/
+checkpoints/
+runs/
+tf-logs/
+logs/
+outputs/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.npz
+
+# DINOv3 source/weights are obtained separately
+/dinov3/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
